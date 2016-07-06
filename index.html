@@ -1,91 +1,124 @@
 <!doctype html>
 <html>
     <head>
-        <title>Project One</title>
-		<link rel="stylesheet" href="normalize.css">
-		<link rel="stylesheet" href="main.css">
+        <title>Mariana Orozco</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
    		<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+   		<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet"> 
+   		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Tillana" rel="stylesheet"> 
+   		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+   		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+   		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+   		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">	
     </head>
     <body>
-    	<header>
-    		<div class="full-width">
- 	   			<div>
- 	   				<h1>Mariana Orozco</h1>
- 	   			</div>
- 	   			<div>
-	    			<nav>
-	    				<ul>
-	    					<li><a href="#about">About</a></li>
-	    					<li><a href="#skills">Skills</a></li>
-	    					<li><a href=#contact>Contact</a></li>
-	    				</ul>
-    				</nav>	
-    			</div>
-    			<div class="circular">
-    				<img id="photo" src="photo.jpg" alt="my photo"/> 
-    			</div>
-    			<h2> I'm an aspiring Front-End Developer based in the land of tulips.</h2>
-    		</div>	
-    		
-    	</header>
-    	
-	    	<main>
-	    		<section id=about>
-	    		   	<div>
-	    				<div class="purple third-width border">
-	    					<p> </p>
+    	<div class="container-fluid">
+    			
+    		<header>
+    			<nav id="soc-med">
+  						<ul>
+  							<li><a target="_blank" href="mailto:marofa00@gmail.com"><i class="fa fa-envelope"></i></a></li>
+    						<li><a href="https://github.com/marofa" target="_blank"><i class="fa fa-github soc-med-icon-top"></i></a></li>
+    						<li><a href="https://www.facebook.com/marofa" target="_blank"><i class="fa fa-facebook soc-med-icon-top"></i></a></li>
+    						<li><a href="https://www.linkedin.com/in/mariana-orozcof" target="_blank"><i class="fa fa-linkedin soc-med-icon-top"></i></a></li>
+  						</ul>
+  					</nav>
+  					
+  			<div class="wrapper">
+ 	   				<div>
+ 	   					<h1 id="name" class="text-center">Mariana Orozco</h1>
+ 	   				</div>
+ 	   				
+ 	   				<div>
+	    				<nav>
+	    					<ul>
+	    						<li><a href="#about">About</a></li>
+	    						<li><a href="#skills">Skills</a></li>
+	    						<li><a href=#contact>Contact</a></li>
+	    					</ul>
+    					</nav>	
+    				</div>
+    				
+  
+    				  <h2> Hoi! I'm a Front-End Developer based in the land of tulips.</h2>
+   
+    				<div class="circular">
+    					<img id="photo" class="image-responsive" src="img/photo.jpg" alt="my photo"/> 
+    				</div>
+    		</div>
+    		</header>
+    
+	  			<div class="wrapper">
+	    			<section id="about">
+	    					<div class="purple third-width border">
+	    						<p> </p>
+	    					</div>
+	    					<div class="purple third-width border">
+	    					</div>
+	    					<div class="white third-width border">
+	    						<h2> Bio </h2>
+	    						<p> After bouncing around for 11 years, I now call Utrecht home, a beautiful city in the Netherlands. I became interested in tech thanks to Skillcrush, and have been hooked on code ever since.</p>
+	    					</div>
+	   
+	    			</section>
+	    	
+		    		<section id="skills">
+	    					<div>
+	    						<div class="white third-width border">
+	    						</div>
+	    						<div class="dark third-width border">
+	    							<h3> Skills </h3>
+	    							<p> HTML5 / CSS3  </p>
+	    							<p> I focus on crafting websites by hand using semantic HTML and beautifully structured CSS.
+	    						</div>
+	    						<div class="dark third-width border">
+	    							<h3> Learning </h3>
+	    							<p> Javascript / Ruby
+	    							<p> I'm learning how to make websites do all that fun stuff, as well as dipping my toes into the back end. </p> 
+	    						</div>
+	    					</div>
+	    		</section>	
+	    		
+	    		
+	    		<section id="contact">
+	    			<div>
+	    				<div class="brown third-width border">
+	    						<h3>Interested?</h3>
+	    						<p>Let's get in touch! </p>
 	    				</div>
-	    				<div class="purple third-width border">
-	    					<p> </p>
-	    					
+	    				<div class="brown third-width border">
+	    						<h3>Send me an e-mail</h3>
+	    						<a id="email" target="_blank" href="mailto:marofa00@gmail.com"><i class="fa fa-envelope"></i>
+    						marofa00@gmail.com</a>
+    							<h3>Or find me online</h3>
+    							<div id="soc-med-2">
+    							<ul>
+    								<li><a class="icon" href="https://github.com/marofa" target="_blank"><i class="fa fa-github soc-med-icon"></i></a></li>
+    								<li><a class="icon" href="https://www.facebook.com/marofa" target="_blank"><i class="fa fa-facebook soc-med-icon"></i></a></li>
+    								<li><a class="icon" href="https://www.linkedin.com/in/mariana-orozcof" target="_blank"><i class="fa fa-linkedin soc-med-icon"></i></a></li>
+	    						</ul>
+	    						</div>
 	    				</div>
-	    				<div class="white third-width border">
-	    					<p> After bouncing around for 11 years, I now call Utrecht home, a beautiful city in the Netherlands. I became interested in tech thanks to Skillcrush, and have been hooked on learning code ever since.</p>
+	    					<div class="white third-width border">
+	    						
 	    				</div>
 	    			</div>	
 	    		</section>
-	    		
-	    		<section id="skills">
-	    				<div>
-	    					<div class="white third-width border">
-	    						<h3>  </h3>
-	    						<p>  </p>
-	    					</div>
-	    					<div class="dark third-width border">
-	    							<h3> Skills </h3>
-	    							<p> HTML / CSS  </p>
-	    							<p> I focus on crafting websites by hand using semantic HTML and beautifully structured CSS.
-	    							 </div>
-	    					<div class="dark third-width border">
-	    						<h3> Learning </h3>
-	    						<p> Javascript / Ruby
-	    						<p> I'm learning how to make websites do all that fun stuff, as well as dipping my toes into the back-end. </p> 
-	    					</div>
-	    				</div>
-	    		</section>
-	    		<section id="contact">
-	    			<div>
-	    				<div class="white third-width border">
-	    						<h3>Interested?</h3>
-	    						<p>Let's meet! </p>
-	    					</div>
-	    					<div class="white third-width border">
-	    						<h3></h3>
-	    						<p>  </p>
-	    					</div>
-	    					<div class="brown third-width border">
-	    						<h3></h3>
-	    						<p></p> 
-	    					</div>
-	    				</div>	
-	    		</section>
+	    </div>
+	   
 	    		<footer id="footer">
-	    			<div class="blue border">
-	    				Copyright @ Mariana Orozco
+	    			<div class="copyright">
+	    				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" <="" script=""> 
+    <script type="text/javascript" src="script.js"></script>
+	    				<p> Copyright @ Mariana Orozco, 2016 </p>
 	    			</div>
 	    		</footer>
-    	</main>
-    	
+   		 
+    	</div>
+    	</div>
    	</body>
 </html>
